@@ -1,27 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Anatomy of a CSS Rule</title>
-<style>
-p {
-  color: blue;
-  font-size: 20px;
-  width: 200px;
-}
-
-h1 {
-  color: green;
-  font-size: 36px;
-  text-align: center;
-}
-</style>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 <body>
-<h1>Anatomy of a CSS Rule</h1>
-<h2>Subheading 1</h2>
-<p>CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a selector and a declaration.</p>
-<h2>Subheading 2</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
+    
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">Col 1</div>
+      <div class="col-md-4 col-sm-6">Col 2</div>
+      <div class="col-md-4 col-sm-6">Col 3</div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">Col 1</div>
+      <div class="col-md-4 col-sm-6">Col 2</div>
+      <div class="col-md-4 col-sm-6">Col 3</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Col 1</div>
+      <div class="col-6">Col 2</div>
+      <div class="col-6">Col 3</div>
+    </div>
+  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
