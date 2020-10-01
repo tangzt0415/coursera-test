@@ -48,6 +48,80 @@ button{
     color: black;
 }
 .container .jumbotron{
-    padding: 1px;
-    width: 770px;
+    padding: 5px;
+    width: auto;
+    height: 100%;
 }
+.jumbotron img{
+    width: 100%;
+
+}
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  #menu-tile{
+      background: url('../images/menu-tile.jpg') no-repeat;
+      background-position: center;
+  }
+  #specials-tile{
+      background: url('../images/special-tile.jpg') no-repeat;
+      background-position: center;
+  }
+  /*   END OF HEADER */
+
+  /* FOOTER START   */
+  .panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  .panel-footer section hr{
+      width: 50%;
+      border: 1px solid white;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials span, #address span , #hours span {
+    color: white;
+    font-size: 1.4em;
+    font-style: normal;
+    font
+  }
+  /* END FOOTER */
