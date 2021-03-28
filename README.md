@@ -1,4 +1,4 @@
-#Coursera Web Dev Course mini project
+Coursera Web Dev Course mini project
 
 This repository is a sample webpage i made based on restaurant "Saizeriya"
 It is built using HTML, CSS and Bootstrap.
